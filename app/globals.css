@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0;
+  padding: 0;
+}
+```
+4. Click "Commit changes"
+
+---
+
+### **Step 4: Verify Your Structure**
+
+Your repository should now look like this:
+```
+tech-blog/
+├── app/
+│   ├── page.js          ✅
+│   ├── layout.js        ✅
+│   └── globals.css      ✅
+├── package.json         ✅
+├── next.config.js       ✅
+├── tailwind.config.js   ✅
+├── postcss.config.js    ✅
+├── jsconfig.json        ✅
+├── .eslintrc.json       ✅
+└── .gitignore           ✅
